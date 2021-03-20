@@ -1,12 +1,11 @@
 var boy,scene,boyimage
-var mosGroup,restart,gameOver
+var mosGroup,restart
 var score=0
 var gamestate="play"
 function preload(){
 boyimage=loadImage("boy.gif")
 mosImage=loadImage("mos-min-1.png")
 restartImage=loadImage("restartImage.gif")
-gameOverImage=loadImage("gameOverimage.webp")
 bgimage=loadImage("bg.jpg")
 batimage=loadImage("bat2.png")
 }
